@@ -27,19 +27,22 @@
   <body>
     <!--<div id="status"></div>-->
     <!--<img id="image-result" hidden>-->
-    <form action="action_page.php">
-      First name:
-      <br>
-      <input type="text" name="firstname" value="Mickey">
-      <br>
-      Last name:
-      <br>
-      <input type="text" name="lastname" value="Mouse">
-      <br>
-      <br>
-      <input type="submit" value="Submit">
-      <input type="reset">
-    </form>
+    <script src="build/test.js"></script>
+    <div id="form1_container">
+      <form onsubmit="get_form_data()" id="form1">
+        First name:
+        <br>
+        <input type="text" name="firstname" value="Mickey" id=form1_firstname>
+        <br>
+        Last name:
+        <br>
+        <input type="text" name="lastname" value="Mouse" id=form1_lastname>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+     </div>
   </body>
 </html>
 
